@@ -1,0 +1,36 @@
+1. Role of Weights and Biases
+Weights determine the importance of input features in the neural network. During training, weights are updated to minimize prediction error.
+Biases help shift activation functions and allow the network to fit data more effectively.
+
+2. Why Activation Functions are Required
+Activation functions introduce non-linearity into the neural network.
+Without activation functions, the network behaves like a simple linear model and cannot learn complex patterns.
+ReLU helps the network learn efficiently by avoiding vanishing gradient problems.
+
+3. Effect of Learning Rate
+If learning rate is too high:
+ Training becomes unstable.
+ Model may overshoot optimal values.
+ Loss may fluctuate.
+If learning rate is too low:
+ Training becomes very slow.
+ Model may take too long to converge.
+A balanced learning rate helps efficient learning.
+
+4. Underfitting and Overfitting
+Underfitting occurs when the model is too simple and cannot capture patterns in data.
+Overfitting occurs when the model memorizes training data and  performs poorly on unseen data.
+
+In this project:
+Training and validation accuracy were relatively close.
+This indicates the model generalized reasonably well.
+No severe overfitting was observed.
+
+Conclusion
+This project successfully demonstrated how a feed-forward neural network learns from data through:
+Forward propagation
+Loss calculation
+Backpropagation
+Weight optimization
+
+Different hyperparameter configurations significantly affected performance, showing the importance of model tuning in deep learning.
