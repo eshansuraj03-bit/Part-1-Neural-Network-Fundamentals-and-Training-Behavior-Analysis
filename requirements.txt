@@ -1,0 +1,10 @@
+Install required libraries:
+pip install -r requirements.txt
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+jupyter
